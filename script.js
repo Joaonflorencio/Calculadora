@@ -3,7 +3,7 @@
 y el segundo solo con una cifra, siento si no está perfecto*/
 
 
-//Elementos
+//Elementos     
 
 const numero = document.querySelectorAll('.btn.number')
 const pantalla = document.querySelector('#calc-disp')
@@ -106,7 +106,7 @@ function handleOperator(e) {
 }
 
 
-//Eventos
+//Eventos para funcionar
 
 clear.addEventListener('click', function handleClear(e) {
     pantalla.value = ''
